@@ -1,85 +1,83 @@
-🎤 Vozes da Escola: Monitoramento Integrado de Saúde Mental e Desempenho Escolar
+# 🎓 Vozes da Escola
 
-🚀 Visão Geral
+**Vozes da Escola** é uma plataforma inovadora de saúde mental para escolas públicas que utiliza inteligência artificial para monitorar e apoiar o bem-estar emocional dos estudantes.
 
-O projeto Vozes da Escola propõe o desenvolvimento de um aplicativo inovador que atua como uma ponte contínua entre estudantes e a equipe multidisciplinar da escola. Utilizando Inteligência Artificial (IA), o sistema coleta o feedback semanal dos alunos sobre suas vivências emocionais e sociais, cruza com dados de desempenho escolar, e gera relatórios de risco e estratégias de intervenção personalizadas.
+![Vozes da Escola Banner](public/diverse-students-and-teachers-in-modern-school-env.jpg)
 
-O objetivo principal é enfrentar a alta prevalência de sofrimento psicoemocional entre adolescentes da rede pública, suprindo a carência de recursos e práticas sistematizadas de escuta ativa e acompanhamento contínuo nas escolas.
+## 📋 Sobre o Projeto
 
-🧐 Contextualização do Problema
+O Vozes da Escola é uma solução completa que conecta alunos, professores e psicólogos em um ecossistema de apoio emocional. A plataforma permite que estudantes registrem suas emoções semanalmente, participem de jogos educativos, e troquem pontos por recompensas, enquanto educadores acompanham o bem-estar da turma através de relatórios gerados por IA.
 
-A saúde mental é um fator determinante para o sucesso escolar. Ansiedade, depressão, bullying e estresse crônico reduzem a concentração, aumentam faltas e elevam as taxas de evasão.
+### 🎯 Objetivos
 
-Crescimento da Crise: A OMS estima que 1 em cada 7 jovens (10 a 19 anos) apresente um transtorno mental. No Brasil, relatórios apontam aumento relevante de sintomas depressivos e ansiosos, intensificados pós-pandemia.
+- Promover a saúde mental nas escolas públicas
+- Identificar precocemente alunos em situação de vulnerabilidade emocional
+- Facilitar a comunicação entre alunos e equipe pedagógica
+- Gamificar o processo de autocuidado emocional
+- Gerar insights acionáveis para educadores
 
-A Lacuna da Escola Pública: Há uma insuficiência de recursos e protocolos escolares sistematizados para identificar e responder ao sofrimento emocional. Essa carência agrava desigualdades e amplifica a chance de queda no rendimento e evasão.
+## ✨ Funcionalidades
 
-O Elemento Crítico: Intervenções são ineficazes sem a escuta ativa dos próprios alunos sobre suas vivências.
+### 👨‍🎓 Para Alunos
 
-✨ Solução Proposta: Vozes da Escola
+- **Registro de Emoções**: Sistema semanal de registro emocional com escala de 1-5 e emojis
+- **Histórico Emocional**: Visualização de padrões emocionais ao longo do tempo
+- **Jogos Educativos**:
+  - 🧠 Jogo da Memória das Emoções
+  - 🫁 Exercício de Respiração Guiada
+  - 📝 Quiz das Emoções
+- **Sistema de Gamificação**:
+  - Pontos por engajamento
+  - Badges de conquistas
+  - Ranking de participação
+- **Loja de Recompensas**: Troca de pontos por:
+  - 📚 Livros educacionais
+  - 👕 Camisas de interclasse
+  - 🎫 Ingressos para eventos
+  - 🎨 Material escolar
+  - 🏆 Troféus e medalhas
+- **Chat com Equipe**: Comunicação direta com professores e psicólogos
 
-O Vozes da Escola é um sistema integrado que promove a gestão escolar empática, preventiva e baseada em dados:
+### 👨‍🏫 Para Professores
 
-Diário Digital Reflexivo (Aluno): Estudantes registram semanalmente, via app, seus feedbacks sobre vivências sociais e emocionais (humor, estresse, alegria, etc.), funcionando como um termômetro emocional.
+- **Dashboard Analítico**: Visão geral do bem-estar da turma
+- **Relatórios com IA**: Insights automáticos sobre padrões emocionais
+- **Lista de Alunos Priorizada**: Alunos em situação crítica aparecem primeiro
+- **Recomendações Personalizadas**: IA sugere ações específicas para cada aluno
+- **Sistema de Comentários**: 
+  - Adicionar observações sobre alunos
+  - Compartilhar com outros professores e psicólogos
+  - Categorização (emocional, acadêmico, comportamental, social)
+  - Níveis de prioridade (baixa, média, alta)
+- **Alertas Automáticos**: Notificações para casos que requerem atenção imediata
+- **Análise de Áreas Problemáticas**: Identificação de onde cada aluno está com dificuldades
 
-Acompanhamento da Equipe (Multidisciplinar): A equipe envia relatórios mensais sobre o progresso e o bem-estar dos alunos.
+### 👨‍⚕️ Para Psicólogos
 
-Análise por IA: A Inteligência Artificial integra e analisa dados comportamentais, emocionais e pedagógicos.
+- Todas as funcionalidades dos professores, mais:
+- **Notas de Acompanhamento**: Registro detalhado de intervenções
+- **Planos de Suporte**: Criação de estratégias personalizadas
+- **Histórico Completo**: Acesso ao histórico emocional e acadêmico dos alunos
 
-Relatórios de Risco: Geração de relatórios personalizados (individuais e por grupo) com base em padrões detectados, sugerindo atividades e estratégias de intervenção adequadas.
+## 🛠️ Tecnologias Utilizadas
 
-Resultado: A equipe multidisciplinar (psicólogos, professores, assistentes sociais, etc.) recebe insights concretos para implementar planos de ação mais assertivos e preventivos, fortalecendo o vínculo com os alunos.
+### Frontend
+- **React 19.2** - Biblioteca JavaScript para interfaces
+- **Next.js 16** - Framework React com SSR e App Router
+- **TypeScript** - Tipagem estática
+- **Styled Components** - Estilização CSS-in-JS
+- **Framer Motion** - Animações fluidas
 
-🎯 Público Beneficiado
+### UI/UX
+- **shadcn/ui** - Componentes de interface
+- **Lucide React** - Ícones modernos
+- **Recharts** - Gráficos e visualizações
 
-O projeto foca na realidade da rede pública de ensino, onde o impacto da carência de recursos é mais sentido.
+### Estado e Dados
+- **localStorage** - Persistência de dados no navegador
+- **SWR** - Gerenciamento de estado e cache
 
-Alunos: Jovens entre 10 e 19 anos (Fundamental 2 ao Ensino Médio) de escolas públicas do município de Recife.
-
-Profissionais: Equipe multidisciplinar das escolas públicas (professores, tutores, psicólogos, orientadores e assistentes sociais).
-
-💡 Impacto Social Esperado
-
-O aplicativo Vozes da Escola visa transformar o ambiente escolar através de seis pilares de impacto:
-
-Protagonismo Estudantil: Criação de um espaço seguro para o aluno se expressar, promovendo autoestima e sentimento de pertencimento.
-
-Detecção Precoce: Identificação de sinais de sofrimento psíquico antes do agravamento, reduzindo evasão e desengajamento.
-
-Atuação Multidisciplinar Fortalecida: Integração e coordenação da equipe em torno de dados acionáveis.
-
-Gestão Escolar Baseada em Evidências: Decisões pedagógicas e de alocação de recursos pautadas em dados reais de bem-estar.
-
-Redução da Distância Emocional: Mediador de diálogo entre professores e alunos, permitindo práticas pedagógicas mais empáticas.
-
-Impacto Ampliado: A médio e longo prazo, contribuição para a melhoria dos índices de aprendizagem e a formação de cidadãos emocionalmente conscientes.
-
-🤝 Parcerias
-
-O projeto buscará incentivo e implementação em parceria com órgãos públicos e iniciativas privadas:
-
-Governo do Estado de Pernambuco
-
-Prefeitura do Recife e Secretarias de Educação e da Juventude
-
-Iniciativas privadas de desenvolvimento educacional.
-
-🗺️ Próximos Passos (Roadmap)
-
-Validação da ideia e definição final do problema.
-
-Definição e refinamento de Personas.
-
-Planejamento e Arquitetura do Sistema.
-
-Desenvolvimento do Protótipo Funcional (MVP).
-
-Implementação da IA para Análise de Sentimentos em linguagem natural.
-
-Testes e Validação com Usuários Reais.
-
-Elaboração da Documentação de Privacidade e Proteção de Dados (LGPD).
-
-Preparação do Plano de Expansão para outras regiões.
-
-Medição de Impacto e Divulgação.
+### IA e Análise
+- Sistema de geração de relatórios com IA (mock)
+- Análise de padrões emocionais
+- Recomendações personalizadas
