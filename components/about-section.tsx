@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card } from "@/components/ui/card"
-import { Heart, Brain, TrendingUp, BookAIcon, Book } from "lucide-react"
+import { Heart, Brain, TrendingUp } from "lucide-react"
 
 export function AboutSection() {
   const features = [
@@ -12,9 +12,9 @@ export function AboutSection() {
       description: "Valorizamos a voz de cada estudante, criando um espaço seguro para expressão emocional.",
     },
     {
-      icon: BookAIcon,
+      icon: Brain,
       title: "IA Educacional",
-      description: "Tecnologia de ponta para análise de bem-estar emocional e identificação de padrões. Equipe submete avaliações individuais Profissionais como professores, psicólogos e assistentes sociais alimentam mensalmente o sistema com suas avaliações gerais sobre os alunos",
+      description: "Tecnologia de ponta para análise de bem-estar emocional e identificação de padrões.",
     },
     {
       icon: TrendingUp,

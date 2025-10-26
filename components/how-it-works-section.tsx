@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card } from "@/components/ui/card"
-import { Smartphone, Brain, Users } from "lucide-react"
+import { Smartphone, Brain, Users, Book } from "lucide-react"
 
 export function HowItWorksSection() {
   const steps = [
@@ -14,15 +14,23 @@ export function HowItWorksSection() {
         "Estudantes registram semanalmente seus sentimentos e vivências escolares através do aplicativo de forma simples e intuitiva.",
     },
     {
-      icon: Brain,
+      icon: Book,
       number: "02",
+      title: "Equipe submete avaliações individuais",
+      description:
+        "Profissionais como professores, psicólogos e assistentes sociais alimentam mensalmente o sistema com suas avaliações gerais sobre os alunos",
+    },
+    {
+      icon: Brain,
+      number: "03",
       title: "IA Analisa e Gera Relatórios",
       description:
         "Nossa Inteligência Artificial processa os dados e identifica padrões de bem-estar emocional, gerando insights valiosos.",
     },
+     
     {
       icon: Users,
-      number: "03",
+      number: "04",
       title: "Equipe Recebe Insights",
       description:
         "Professores, psicólogos e orientadores recebem relatórios detalhados e podem propor intervenções personalizadas.",
