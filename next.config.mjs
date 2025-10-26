@@ -6,9 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  turbopack: {
-    root: __dirname, // define explicitamente a raiz do projeto
-  },
+  // turbopack.root removido
 }
 
 export default nextConfig
