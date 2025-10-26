@@ -16,7 +16,7 @@ export function HowItWorksSection() {
     {
       icon: Book,
       number: "02",
-      title: "Equipe submete avaliações individuais",
+      title: "Equipe Submete Avaliações Individuais",
       description:
         "Profissionais como professores, psicólogos e assistentes sociais alimentam mensalmente o sistema com suas avaliações gerais sobre os alunos",
     },
