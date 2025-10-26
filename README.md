@@ -2,7 +2,6 @@
 
 **Vozes da Escola** é uma plataforma inovadora de saúde mental para escolas públicas que utiliza inteligência artificial para monitorar e apoiar o bem-estar emocional dos estudantes.
 
-![Vozes da Escola Banner](public/diverse-students-and-teachers-in-modern-school-env.jpg)
 
 ## 📋 Sobre o Projeto
 
@@ -77,7 +76,47 @@ O Vozes da Escola é uma solução completa que conecta alunos, professores e ps
 - **localStorage** - Persistência de dados no navegador
 - **SWR** - Gerenciamento de estado e cache
 
+### Fluxo do Aluno
+
+1. Faça login com credenciais de aluno
+2. Registre sua emoção semanal na aba "Emoções"
+3. Jogue os mini-games na aba "Jogos" para ganhar pontos
+4. Troque pontos por recompensas na "Loja"
+5. Acompanhe seu progresso e badges conquistados
+
+### Fluxo do Professor/Psicólogo
+
+1. Faça login com credenciais de professor ou psicólogo
+2. Visualize o relatório semanal gerado pela IA
+3. Confira a lista de alunos (casos críticos aparecem primeiro)
+4. Clique em um aluno para ver detalhes e recomendações
+5. Adicione comentários e compartilhe com a equipe
+6. (Psicólogos) Registre notas de acompanhamento emocional
+
+
 ### IA e Análise
 - Sistema de geração de relatórios com IA (mock)
 - Análise de padrões emocionais
 - Recomendações personalizadas
+
+
+## 🔐 Segurança e Privacidade
+
+- Dados armazenados localmente no navegador (localStorage)
+- Sem coleta de dados pessoais sensíveis
+- Sistema de autenticação simulado para demonstração
+- Em produção, recomenda-se implementar:
+  - Autenticação real com JWT
+  - Banco de dados seguro
+  - Criptografia de dados sensíveis
+  - Conformidade com LGPD
+
+
+## 🙏 Agradecimentos
+
+- Todos que acreditam na importância da saúde mental na educação
+
+---
+
+**Vozes da Escola** - Transformando a saúde mental nas escolas, um aluno por vez. 🎓💙
+
