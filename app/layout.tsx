@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Vozes da Escola - Promovendo Saúde Mental nas Escolas",
   description:
     "Um aplicativo que conecta alunos e escolas para cuidar da saúde mental e promover o bem-estar emocional.",
-  generator: "v0.app",
+  generator: "",
 }
 
 export default function RootLayout({
